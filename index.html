@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">MyPortfolio</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#works" class="nav-link">Works & Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm Stephany Angelindra Kusuma</span></h1>
+                <p class="hero-subtitle">Undergraduate Software Engineering student at BINUS University</p>
+                <p class="hero-description">I have a strong interest in UI/UX design and data analysis. I am currently developing my skills through personal projects.</p>
+                <div class="hero-buttons">
+                    <a href="#works" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-image">
+                    <img src="meh.jpg" alt="profile-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! My name is Stephany Angelindra Kusuma, a Computer Science – Software Engineering student. I have a strong interest in UI/UX design and Data Analysis.  I am actively honing my skills in Figma for prototyping, Python for data processing, and SQL for database queries. </p>
+                    <p>Currently, I am developing my skills through academic projects and personal exploration, with the goal of creating meaningful digital solutions.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>2</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h3>2</h3>
+                            <p>Years Experience</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="me2.jpg" alt="About me">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+
+                    <h3>Frontend</h3>
+                    <div class="skill-item">
+                        <span>HTML</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>JavaScript</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="65"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>CSS/SCSS</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="70"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+
+                    <h3>Tools & Others</h3>
+                    <div class="skill-item">
+                        <span>Microsoft Excel</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="78"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Figma</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Works Section -->
+    <section id="works" class="works">
+        <div class="container">
+            <h2 class="section-title">Works & Experience</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Projects</button>
+                <button class="filter-btn" data-filter="volunteer">Social Activity</button>
+                <button class="filter-btn" data-filter="organization">Organization</button>
+            </div>
+            <div class="works-grid">
+
+                <div class="work-item" data-category="web">
+                    <div class="work-image">
+                        <img src="SistemParkir.jpg" alt="PARKER - Parking App">
+                        <div class="work-overlay">
+                            <div class="work-links">
+                                <a href="https://www.figma.com/design/sJwjaJXCDcNoygoVXY6dKE/Design-Figma-AI?node-id=163-2&t=oeJiZ0SaB2z3dO6M-1" class="work-link"><i class="fab fa-figma"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-content">
+                        <h3>PARKER - Parking App [2024]</h3>
+                        <p>an application that makes it easier for Binus students to find out parking conditions at Binus Bekasi.</p>
+                        <p>I participated in creating figma for the application we developed.</p>
+                        <div class="work-tags">
+                            <span>Figma</span>
+                            <span>Illustrator</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work-item" data-category="web">
+                    <div class="work-image">
+                        <img src="SinefolisFig.jpg" alt="Sinefolis - Cinema Website">
+                        <div class="work-overlay">
+                            <div class="work-links">
+                                <a href="https://leyulson.github.io/Sinefolis-CinemaWeb/" class="work-link"><i class="fas fa-github"></i></a>
+                                <a href="https://www.figma.com/design/99eVY6hUtO2sO7ZlBiFNws/HCI-Design?node-id=0-1&t=5Q2UyvjvLGOc0eEw-1" class="work-link"><i class="fab fa-figma"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-content">
+                        <h3>Sinefolis - Cinema Website [2025]</h3>
+                        <p>A personal project for Human-Computer Interaction course focused on creating a clear and engaging experience for users to browse movies and check showtimes. The process covered the full design and development cycle, from UI/UX design in Figma to a functional front-end prototype using HTML, CSS, and JavaScript.</p>
+                        <div class="work-tags">
+                            <span>Figma</span>
+                            <span>Illustrator</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work-item" data-category="volunteer">
+                    <div class="work-image">
+                        <img src="bimbelvolun.jpg" alt="Volun Bimbel1">
+                        <div class="work-overlay">
+                            
+                        </div>
+                    </div>
+                    <div class="work-content">
+                        <h3>Campus Tutoring Volunteers [2025]</h3>
+                        <p>Providing private tutoring for Mathematics and English for students from Elementary School (SD) to Junior High School (SMP). Focusing on strengthening basic concepts, improving problem-solving skills, and building student confidence in learning.</p>
+                        <div class="work-tags">
+                            <span>Problem-solving</span>
+                            <span>Social Activity</span>
+                            <span>Positive Learning Environment</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work-item" data-category="volunteer">
+                    <div class="work-image">
+                        <img src="cbvolun.jpg" alt="SosialisasiCB TB">
+                        <div class="work-overlay">
+                            
+                        </div>
+                    </div>
+                    <div class="work-content">
+                        <h3>Anti-Corruption Character Socialization at Tunas Bangsa Junior High School [2023]</h3>
+                        <p>An educational activity to instill the values ​​of integrity, honesty, and responsibility in students of Tunas Bangsa Middle School as an effort to prevent corruption from an early age.</p>
+                        <div class="work-tags">
+                            <span>Social Activity</span>
+                            <span>Character Building</span>
+                            <span>Education</span>
+                            <span>Public Speaking</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item" data-category="volunteer">
+                    <div class="work-image">
+                        <img src="puskesmasVolun.jpg" alt="Bifest Social Activity">
+                        <div class="work-overlay">
+                            
+                        </div>
+                    </div>
+                    <div class="work-content">
+                        <h3>Bifest Social Activity [May 15, 2024]</h3>
+                        <p>Actively participated in the BINA NUSANTARA Festival (BiFest) community service program, held in collaboration with a local Community Health Center (Puskesmas). Tasked with facilitating smooth healthcare services for the local community, which included assisting with patient registration, providing directions, and managing queues to ensure an efficient and comfortable check-up process.</p>
+                        <div class="work-tags">
+                            <span>Social Activity</span>
+                            <span>Public Health</span>
+                            <span>Community Service</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work-item" data-category="organization">
+                    <div class="work-image">
+                        <img src="Sesvent.jpg " alt="HIMTI - Sesvent Event">
+                        <div class="work-overlay">
+                            
+                        </div>
+                    </div>
+                    <div class="work-content">
+                        <h3>Mentoring Devision - Sesvent, HIMTI BINUS University [October, 2024]</h3>
+                        <p>Responsible for guiding and mentoring a group of prospective members during the two-week new member selection and orientation process. This role involved introducing the organizational culture, facilitating discussions, and assessing the potential and character of candidates to ensure a high-quality regeneration of the organization.</p>
+                        <div class="work-tags">
+                            <span>Crowd Control</span>
+                            <span>Patient Assistance</span>
+                            <span>Leadership & Mentoring</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work-item" data-category="organization">
+                    <div class="work-image">
+                        <img src="himeet.jpg " alt="HIMTI - HIMEET">
+                        <div class="work-overlay">
+                        
+                        </div>
+                    </div>
+                    <div class="work-content">
+                        <h3>Events Division – HIMEET, HIMTI BINUS University [August 2024]</h3>
+                        <p>Responsible for the conceptualization and planning phase of the "HIMEET" event. Key duties included designing the event concept and rundown, as well as conducting venue surveys and analysis to ensure the location’s technical specifications and capacity aligned with the event's needs.</p>
+                        <div class="work-tags">
+                            <span>Problem-solving</span>
+                            <span>Planning & Organization</span>
+                            <span>Event Management</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work-item" data-category="volunteer">
+                    <div class="work-image">
+                        <img src="Parent's Day B28.jpg" alt="Liasion Officer (LO) - Major Session">
+                        <div class="work-overlay">
+                        </div>
+                    </div>
+                    <div class="work-content">
+                        <h3>Events Division Staff (PIC Department Mobilization) - Parents Day BINUS University [August 30, 2024]</h3>
+                        <p>Entrusted as the Person-in-Charge (PIC) for Departmental Mobilization for 'Parents Day 2024' at BINUS University, a large-scale event attended by hundreds of new students' parents. My role was crucial in ensuring a smooth and organized flow of attendees. I designed movement layouts and schedules, coordinated the on-site team, and served as the central information hub for participants grouped by their specific academic departments. The successful execution of this role directly contributed to the event's time efficiency and the positive experience of all attending parents.</p>
+                        <div class="work-tags">
+                            <span>Planning & Organizing</span>
+                            <span>Public Speaking</span>
+                            <span>Problem Solving</span>
+                            <span>Event Management</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's work together</h3>
+                    <p>I'm always interested in new opportunities and exciting projects. Whether you have a question or just want to say hi, feel free to reach out!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>Tephany.angel@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+62 895-1645-1857</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Bekasi, West Java</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="www.linkedin.com/in/stephany-angelindra-kusuma" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/tephny.o_c?igsh=dHR4dWNlcHoyMHV2" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Stephany Angelindra Kusuma. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
